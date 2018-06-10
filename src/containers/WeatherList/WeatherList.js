@@ -12,7 +12,6 @@ class WeatherList extends Component {
     );
     const pressureArray = list.map(weather => weather.main.pressure);
     const humidityArray = list.map(weather => weather.main.humidity);
-
     return (
       <tr key={key}>
         <td>{cityData.city.name}</td>
@@ -26,7 +25,7 @@ class WeatherList extends Component {
           <WeatherChart data={humidityArray} color="#FF4136" units="%" />
         </td>
       </tr>
-    )
+    );
   }
   render() {
     const weather = this.props.weather;
