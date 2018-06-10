@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jest", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "warn"
+    ],
+    "no-console": "warn",
+    "react/no-unescaped-entities": "off"
+  }
+}

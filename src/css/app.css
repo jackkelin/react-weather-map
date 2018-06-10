@@ -1,0 +1,29 @@
+:root {
+  /* Spacing */
+  --spacing-none: 0;
+  --spacing-extra-small: .25rem;
+  --spacing-small: .5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-extra-large: 4rem;
+  --spacing-extra-extra-large: 8rem;
+  --spacing-extra-extra-extra-large: 16rem;
+
+  /* Colors */
+  --black: #000000;
+  --dark-gray: #333333;
+  --light-gray: #EEEEEE;
+  --white: #ffffff;
+
+  --dark-blue: #00449E;
+  --blue: #357EDD;
+  --dark-red: #E7040F;
+  --red: #FF4136;
+
+  --dark-pink: #D5008F;
+  --hot-pink: #FF41B4;
+  
+
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+@import './_spacing.css';

@@ -1,0 +1,1 @@
+This react application is a simple weather map where you can search weather data of any US city. The app uses Open Weather Map API data and extends Create React App boilerplate. 
